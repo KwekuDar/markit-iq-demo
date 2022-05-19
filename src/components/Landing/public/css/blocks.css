@@ -1,0 +1,76 @@
+.module {
+  color: white;
+  margin: auto;
+  height: 92%;
+  width: 90%;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.module div {
+  margin: 2rem;
+}
+
+/* the good stuff starts here */
+/* multiple columns w/ margins */
+.grid_margins {
+  margin-right: 3%;
+  margin-left: 3%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.grid_margins > .liner {
+  margin-top: -2rem;
+  margin-right: -2rem;
+}
+
+.grid_margins > .liner > div {
+  float: left;
+  height: auto;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.about-text p {
+  color: white;
+}
+
+@media screen and (max-width: 916px) {
+  .grid_margins {
+    width: 100%;
+  }
+  .grid_margins > div {
+    height: auto;
+  }
+  .module {
+    color: white;
+    margin: auto;
+    height: 92%;
+    width: 90%;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .module div {
+    margin: 2rem;
+  }
+}
+/*# sourceMappingURL=blocks.css.map */

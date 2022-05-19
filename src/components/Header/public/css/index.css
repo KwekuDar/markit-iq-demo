@@ -1,0 +1,404 @@
+.nav-bar {
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	background-color: #262b41;
+	top: 0px;
+	z-index: 2;
+	transition: 0.4s;
+}
+
+.nav-bar.active {
+	position: fixed;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	background-color: #ffffff;
+	top: 0px;
+	z-index: 2;
+	color: black;
+	transition: 0.4s;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+.nav-sections {
+	display: flex;
+	flex-direction: row;
+	gap: 675px;
+}
+
+.nav-items {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	list-style-type: none;
+}
+
+.nav-item {
+	margin-top: 7px;
+}
+.nav-item span {
+	color: white;
+}
+
+.nav-item span:hover {
+	color: #b643fa;
+}
+
+.nav-item.active span {
+	color: black;
+}
+
+.nav-item.active span:hover {
+	color: #8ec2f2;
+}
+
+.start-trial-btn {
+	background-color: #ffffff;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	padding: 15px;
+	border-radius: 7px;
+	border: 1px solid #ffffff00;
+	margin-top: 5px;
+	width: 225px;
+}
+
+.start-trial-btn.active {
+	background-color: #8ec2f2;
+	color: white;
+
+	padding: 15px;
+	border-radius: 7px;
+	border: 2px solid #8ec2f2;
+}
+
+.start-trial-btn:hover {
+	background-color: #b643fa;
+	border: 2px solid #b643fa;
+	color: white;
+}
+
+.start-trial-btn.active:hover {
+	background-color: white;
+	color: #8ec2f2;
+	border: 2px solid #8ec2f2;
+}
+
+.markit-home:hover {
+	background-color: #d6dfff;
+}
+
+.markit-home {
+	font-size: 25px;
+	border: none;
+	background-color: #262b41;
+	color: white;
+	transition: 0.4s;
+
+	
+	/* margin-left: 75px; */
+}
+
+.markit-home.active {
+	font-size: 25px;
+	border: none;
+	background-color: white;
+	color: #262b41;
+	transition: 0.4s;
+	/* margin-left: 75px; */
+}
+
+.login a {
+	color: #ffffff;
+
+	border-radius: 7px;
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 7px;
+	margin-right: 15px;
+}
+
+.login.active a {
+	color: #000000;
+
+	border-radius: 7px;
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 7px;
+}
+
+.login a:hover {
+	color: #b643fa;
+
+	font-weight: bold;
+}
+
+.login.active a:hover {
+	color: #8ec2f2;
+
+	font-weight: bold;
+}
+
+nav ul li ul li {
+	background-color: white;
+	text-decoration: none;
+}
+
+nav p {
+	font-size: 24px;
+	line-height: 55px;
+	float: left;
+	padding: 0px 20px;
+}
+
+nav ul {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	padding: 24px 14px;
+	font-size: 20px;
+}
+
+nav ul li {
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav ul li ul {
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 0px 0px 7px 7px;
+	margin-top: 19px;
+	filter: drop-shadow(-10px 15px 8px #03031a38);
+}
+
+nav ul li ul li {
+	width: 180px;
+}
+
+nav ul li ul li a {
+	padding: 12px 14px;
+}
+
+nav ul li ul li a:hover {
+	color: #b643fa;
+	padding: 15px;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+
+.nav-link span {
+	padding-bottom: 30px;
+	padding-top: 40px;
+}
+
+@media only screen and (max-width: 1400px) {
+	.nav-sections {
+		all: initial;
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+	}
+}
+
+@media only screen and (max-width: 1500px) {
+	.nav-sections {
+		display: flex;
+		flex-direction: row;
+		gap: 300px;
+	}
+}
+
+@media only screen and (max-width: 1800px) {
+	.nav-sections {
+		display: flex;
+		flex-direction: row;
+		gap: 500px;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	.nav-sections {
+		display: flex;
+		flex-direction: row;
+		gap: 325px;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.nav-sections {
+		display: flex;
+		flex-direction: row;
+		gap: 150px;
+	}
+}
+
+@media only screen and (max-width: 1253px) {
+	.nav-bar {
+		display: none;
+	}
+	.nav-bar.active {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.our-specialties {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		margin-top: 100px;
+		color: #636363;
+		width: 250px;
+		padding: 20px;
+		background-color: white;
+		/* 
+	border: #8ec2f2 3px solid;
+	outline: #b643fa 3px solid; */
+		box-shadow: 0 0 0 7px white, 0 0 0 10px #8ec2f2, 0 0 0 17px white, 0 0 0 20px #b57dea;
+
+		animation-name: floating;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+	}
+
+	.our-specialties span {
+		font-size:30px;
+		text-align: center;
+	}
+
+	.our-specialties p {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.specialty-list li {
+		font-size: 18px;
+	}
+
+	.our-specialties button {
+		width: 200px;
+	}
+}
+
+
+@media only screen and (max-width: 380px) {
+	.our-specialties {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		margin-top: 100px;
+		color: #636363;
+		width: 250px;
+		padding: 20px;
+		background-color: white;
+		/* 
+	border: #8ec2f2 3px solid;
+	outline: #b643fa 3px solid; */
+		box-shadow: 0 0 0 7px white, 0 0 0 10px #8ec2f2, 0 0 0 17px white, 0 0 0 20px #b57dea;
+
+		animation-name: floating;
+		animation-duration: 6s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+	}
+
+	.our-specialties span {
+		font-size:30px;
+		text-align: center;
+	}
+
+	.our-specialties p {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.specialty-list li {
+		font-size: 18px;
+	}
+
+	.our-specialties button {
+		width: 200px;
+	}
+
+	
+}
+
+@media only screen and (max-width: 1050px) {
+	.text-carousel {
+	display: flex;
+	align-items: center;
+	background-color: #8ec2f2;
+	height: 150px;
+	text-align: center;
+	justify-content: center;
+	color: white;
+}
+
+.text-carousel span {
+	font-size: 50px;
+}
+}
+
+@media only screen and (max-width: 860px) {
+	.text-carousel {
+	display: flex;
+	align-items: center;
+	background-color: #8ec2f2;
+	height: 150px;
+	text-align: center;
+	justify-content: center;
+	color: white;
+}
+
+.landing-content span {
+	font-size: 50px;
+}
+.get-started-btn {
+	width: 125px;
+}
+.learn-more-btn {
+	width: 125px;
+}
+.text-carousel span {
+	font-size: 30px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+	.text-carousel {
+	display: flex;
+	align-items: center;
+	background-color: #8ec2f2;
+	height: 100px;
+	text-align: center;
+	justify-content: center;
+	color: white;
+}
+
+.text-carousel span {
+	font-size: 20px;
+}
+}
+
+
+

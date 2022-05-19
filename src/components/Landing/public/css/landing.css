@@ -1,0 +1,259 @@
+/* html {
+  --header1: calc(1rem + 1vw);
+  --header2: calc(2rem + 1vw);
+  --header3: calc(1rem + 1vw);
+  --header4: calc(0.3rem + 1vw);
+  --text: calc(1.5rem + 1vw);
+  --big: calc(6rem + 1vw);
+  --special-color: #906272;
+  --background-color: #414141;
+  --gray-text: #525252;
+  scroll-behavior: smooth;
+} */
+
+.carousel-section {
+  text-align: center;
+  min-height: 90vh;
+  padding-top: 5rem;
+  background-image: linear-gradient(120deg, #ffffff 0%, #474899 100%);
+}
+
+.company-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rise-above {
+  transform: translateY(-60%);
+  margin-bottom: 4%;
+}
+/* .rise-above h2 {
+  color: #252b42;
+} */
+
+.slogan {
+  color: #252b42;
+  font-size: 40px;
+}
+
+.carousel {
+  padding-top: 12rem;
+}
+#carousel-logo {
+  position: absolute;
+  animation: markit 4s ease infinite alternate;
+}
+@keyframes markit {
+  from {
+    transform: translateY(290%) rotateX(0deg);
+  }
+  to {
+    transform: translateY(290%) rotateX(360deg);
+  }
+}
+
+.about {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  padding-bottom: 2rem;
+  margin-right: 2%;
+}
+
+.about-image {
+  flex: 0 1 44rem;
+  position: relative;
+  text-align: center;
+  /* background: #252b42; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-image p {
+  color: rgb(255, 255, 255);
+}
+
+.about-text p {
+  font-size: 20px;
+  text-align: center;
+  color: #040404;
+}
+
+#text-1 {
+  animation: text1 5.5s ease infinite alternate 2.5s;
+  font-size: 28px;
+}
+
+#text-2 {
+  animation: text2 5s ease infinite alternate;
+  font-size: 28px;
+}
+
+#graph {
+  width: 25rem;
+  height: 25rem;
+
+  position: absolute;
+  animation: graph 10s ease infinite alternate;
+}
+
+@keyframes graph {
+  0% {
+    transform: rotate3d(0, 1, 0, 0deg) translateY(-20%);
+  }
+  50% {
+    transform: rotate3d(0, 1, 0, 360deg) translateY(-20%);
+  }
+  90% {
+    transform: rotate3d(0, 1, 0, 360deg) translateY(31%);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 360deg) translateY(31%);
+  }
+}
+
+@keyframes text1 {
+  from {
+    transform: translateX(-400%) translateY(0%);
+  }
+  to {
+    transform: translateX(125%) translateY(100%);
+  }
+}
+@keyframes text2 {
+  from {
+    transform: translateX(-400%) translateY(-300%);
+  }
+  to {
+    transform: translateX(120%) translateY(-345%);
+  }
+}
+
+.why-markit {
+  display: flex;
+  padding: 4rem;
+}
+
+.why-wording {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 1 40rem;
+}
+
+.why-wording p {
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 18px;
+  /* font-family: "Montserrat Alternates", sans-serif; */
+}
+
+.why-points {
+  display: flex;
+  flex: 1 1 40rem;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.point {
+  display: flex;
+  margin: auto;
+}
+.point p {
+  font-size: 0.7rem;
+  color: rgb(19, 17, 17);
+}
+
+.point-logo {
+  background: #8ec2f2;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+  margin: 1rem;
+  transform: translateY(15%);
+}
+
+.point-wording {
+  padding: 0rem;
+}
+
+.ready-to-start {
+  /* background: #252b42; */
+  display: flex;
+  text-align: center;
+  justify-items: auto;
+  align-items: center;
+  flex-direction: column;
+  height: 20vh;
+  color: #252b42;
+}
+.ready-to-start p {
+  color: grey;
+  padding-bottom: 1rem;
+}
+.ready-to-start h1 {
+  padding-top: 2rem;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #a7a8aa;
+}
+
+a:hover {
+  color: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: none;
+  padding: 1rem;
+}
+
+@media screen and (max-width: 916px) {
+  .about-text {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    /* font-family: "Montserrat Alternates"; */
+  }
+  #graph {
+    width: 20rem;
+    height: 20rem;
+
+    position: absolute;
+    animation: graph 5s ease infinite alternate;
+  }
+
+  @keyframes graph {
+    0% {
+      transform: translateY(-160%) translateX(22%);
+    }
+    100% {
+      transform: translateY(180%) translateX(22%);
+    }
+  }
+}

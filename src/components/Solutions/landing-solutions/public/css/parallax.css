@@ -1,0 +1,113 @@
+.Landing-parallax {
+  position: relative;
+  height: 35vh;
+}
+
+.Landing-parallax div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 35vh;
+  background-color: rgba(0, 0, 0, 0.308);
+  color: white;
+  font-size: 100px;
+  width: 100%;
+}
+
+.Landing-parallax1 {
+  position: relative;
+  height: 50vh;
+}
+
+.Landing-parallax1 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.308);
+  color: white;
+  font-size: 90px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 860px) {
+
+.Landings-parallax {
+    position: relative;
+    height: 70vh;
+  }
+  
+  .Landings-div {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.308);
+    color: black;
+    width: 100%;
+  }
+  
+  .Landings-cards {
+  text-align: center;
+  border-style: solid;
+  background-color: white;
+  border-color: white;
+  border-radius: 2%;
+  width: 80%;
+  margin-top: 3%;
+  color: white;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 861px) {
+
+
+  .Landings-parallax {
+    position: relative;
+    height: 60vh;
+  }
+  
+  .Landings-div {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.308);
+    color: black;
+  }
+  
+  .Landings-cards {
+  text-align: center;
+  border-style: solid;
+  background-color: white;
+  border-color: white;
+  border-radius: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  color: black;
+  }
+
+}
+
+
+/* .Landings-parallax div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0.308);
+  color: white;
+  font-size: 40px;
+  width: 100%;
+} */

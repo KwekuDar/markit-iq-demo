@@ -1,0 +1,189 @@
+/* #252b42
+background-color: #f8fafc; */
+
+.ready-to-start {
+  background-color: #f8fafc;
+  display: flex;
+  text-align: center;
+  justify-items: auto;
+  align-items: center;
+  flex-direction: column;
+  height: 20vh;
+  color: #252b42;
+  padding-bottom: 2%;
+}
+
+.ready-to-start p {
+  color: #252b42;
+  padding-bottom: 1rem;
+}
+
+.ready-to-start h1 {
+  margin-top: 1rem;
+}
+.ready-to-start button {
+  margin-top: 0.5rem;
+}
+
+.conversion-marketing {
+  background: #252b42;
+  display: flex;
+  text-align: center;
+  justify-items: auto;
+  align-items: center;
+  flex-direction: column;
+  height: 25vh;
+  padding-bottom: 2%;
+  color: white;
+  margin-top: 1rem;
+}
+.conversion-marketing h1 {
+  color: #8ec2f2;
+  margin-top: 2.6rem;
+}
+
+#search-bar {
+  width: 500px;
+  height: 52.7px;
+  color: #8ec2f2;
+  border: 1px solid white;
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.search-field input {
+  text-indent: 5%;
+}
+
+#search-bar::placeholder {
+  color: #8ec2f2;
+}
+
+#search-button {
+  width: 100px;
+  height: 57px;
+  border: 0.1px solid white;
+  background: #252b42;
+  color: #8ec2f2;
+  font-weight: bold;
+  font-size: 10px;
+  padding-top: 3px;
+  cursor: pointer;
+}
+.tabs-section {
+  padding-bottom: 3%;
+}
+.why-markit-knowledge {
+  display: flex;
+  padding: 4rem;
+  max-height: 20vh;
+
+}
+
+.why-wording-knowledge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 1 40rem;
+  /* font-family: sans-serif; */
+}
+.why-wording-knowledge h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.why-wording-knowledge hr {
+  width: 30%;
+  height: 1px;
+  background: #b643fa;
+  transform: translateX(-5%);
+}
+
+.why-wording-knowledge p {
+  text-align: left;
+  line-height: 0.1rem;
+  margin-left: 8%;
+}
+
+.why-wording-knowledge button {
+  width: 196px;
+  height: 59px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+  color: #8ec2f2;
+}
+
+.why-points {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1 1 40rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.point-knowledge {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.point-knowledge p {
+  font-size: 0.9rem;
+  color: rgb(87, 83, 83);
+}
+
+.point-knowledge-logo {
+  background: #252b42;
+  width: 24px;
+  height: 24px;
+  border-radius: 20%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 1rem;
+  transform: translateY(15%);
+  cursor: pointer;
+}
+
+.point-wording {
+  padding: 0rem;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #a7a8aa;
+}
+
+a:hover {
+  color: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: none;
+  text-decoration: none;
+}
+
+a:visited {
+  color: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: none;
+  padding: 1rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1446px) {
+  .conversion-marketing h1 {
+    color: #8ec2f2;
+    margin-bottom: 2.6rem;
+  }
+}

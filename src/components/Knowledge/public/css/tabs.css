@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container-tabs {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 90%;
+  background: #f1f1f1;
+  margin: 100px auto 0;
+  word-break: break-all;
+}
+
+.bloc-tabs {
+  display: flex;
+}
+.container-tabs .tabs {
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+  background: #252b42;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+  color: white;
+  /* font-family: "Montserrat Alternates", sans-serif; */
+}
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  background-image: linear-gradient(120deg, #ffffff 30%, #474899 100%);
+  color: black;
+  border-bottom: 1px solid #8ec2f2;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: #8ec2f2;
+}
+
+button {
+  border: none;
+}
+.content-tabs {
+  flex-grow: 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+
+.projects {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog1,
+.blog2 {
+  flex: 1 1 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.blog1 img,
+.blog2 img {
+  max-width: 90%;
+  height: 60%;
+  border-radius: 10%;
+}
+.blog1-story,
+.blog2-story {
+  flex: 1 1 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.blog1-story img,
+.blog2-story img {
+  border-radius: 20%;
+}
+
+.webinar {
+  text-align: center;
+}

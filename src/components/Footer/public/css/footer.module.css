@@ -1,0 +1,111 @@
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth; } }
+
+.container {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+
+.row {
+  /* --bs-gutter-x: 1.5rem; */
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2); }
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y); }
+
+@media (min-width: 768px) {
+  .col_md_6 {
+    flex: 0 0 auto;
+    width: 50%; } }
+
+@media (min-width: 992px) {
+  .col_lg_3 {
+    flex: 0 0 auto;
+    width: 25%; } }
+
+.d_block {
+  display: block !important; }
+
+.justify_content_center {
+  justify-content: center !important; }
+
+.align_items_stretch {
+  align-items: stretch !important; }
+
+
+.py_2 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important; }
+
+.py_5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important; }
+ 
+.text-center {
+  text-align: center !important; }
+  
+@media (min-width: 768px) {  
+  .py_md_7 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important; } }
+
+.h3 {
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: Bold;
+  font-style: normal;
+  line-height: 32px; }
+
+.link {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: Bold;
+  font-style: normal;
+  line-height: 24px; }
+
+a {
+  padding: 10px 10px 10px 0px;
+}
+
+.icn_sm {
+  font-weight: 400;
+  width: 24px !important;
+  height: 24px !important;
+  font-size: 24px; }
+
+.navy_background_color {
+  background-color: #252b42; }
+
+.icon_text_color {
+  color: #23a6f0; }
+
+.light_text_color {
+  color: white !important; }
+
+.footer_spacing {
+  padding-left: 4.5em !important;
+}
