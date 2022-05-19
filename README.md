@@ -22,7 +22,7 @@ Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 Markit Demo Landing Page
-!["landing page"](https://github.com/KwekuDar/markit-iq-demo/blob/main/MarkitIQ_screenshots/landing_girl.png?raw=true)
+!["landing page"](https://github.com/KwekuDar/markit-iq-demo/blob/main/MarkitIQ_screenshots/1_landing.png?raw=true)
 
 Markit Demo Specialties Page
 !["our specialties"](https://github.com/KwekuDar/markit-iq-demo/blob/main/MarkitIQ_screenshots/our_specialites.png?raw=true)
